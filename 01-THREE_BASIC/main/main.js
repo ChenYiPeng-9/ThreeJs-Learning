@@ -38,3 +38,13 @@ document.body.appendChild(renderer.domElement);
 
 // 使用渲染器，通过相机将场景渲染进来
 renderer.render(scene, camera);
+
+
+/* 
+renderer.setSize(window.innerWidth,window.innerHeight) 
+是用于设置渲染器（renderer）的画布大小，
+使其与浏览器窗口大小一致
+renderer 是 three.js 中的一个重要对象，
+它负责将场景中的物体渲染（绘制）到画布上
+ */
+
